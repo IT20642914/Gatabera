@@ -20,7 +20,7 @@ const Banner = () => {
           color='primary.light'
           variant={isSmallScreen ? 'subtitle2' : 'h1'}
         >
-          Trusted Technology Partner Bringing
+          Your Trusted Partner 
         </Typography>
         <Typography
           id={styles.boldBannerTitle}
@@ -28,11 +28,11 @@ const Banner = () => {
           color='primary.light'
           variant={isSmallScreen ? 'subtitle2' : 'h1'}
         >
-          Innovative Customized Solutions
+         in Crafting  Traditional Instruments
         </Typography>
         <Typography id={styles.subHeader} color='primary.light' variant='subtitle1'>
-          We are the elite of digital transformation professionals providing Software Engineering
-          services
+        Experience the enchantment of centuries-old melodies as we delve into the world of traditional instruments.
+       
         </Typography>
       </Grid>
       {isMediumScreen && <ScrollDown />}

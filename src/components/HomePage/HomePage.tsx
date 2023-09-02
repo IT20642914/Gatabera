@@ -7,15 +7,15 @@ import Clients from './components/Clients/Clients';
 import Tools from './components/Tools/Tools';
 import BehindScenes from './components/BehindScenes/BehindScenes';
 import GetInTouch from './components/GetInTouch/GetInTouch';
-
+import styles from './HomePage.module.scss'
 const HomePage = () => {
   return (
-    <Grid container>
+    <Grid className={styles.container} container >
       <Banner />
       <Services />
       <CaseStudies />
       <Clients />
-      <Tools />
+      {/* <Tools /> */}
       <BehindScenes />
       <GetInTouch />
     </Grid>

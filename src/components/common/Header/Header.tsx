@@ -68,7 +68,7 @@ const Header = () => {
   };
 
   return (
-    <Grid container>
+    <Grid className={styles.head} container>
       <Grid className={styles.hiringSection} xs={12} item>
         <Typography color='primary.light'>
         Tharanga Alawala- <u style={{ fontWeight: 500 }}>Traditional Instrument makes</u>
