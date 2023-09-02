@@ -1,0 +1,144 @@
+@import '../../../../styles/styles.scss';
+
+#titleContainer {
+  position: relative;
+  padding-top: $larger-padding;
+  padding-left: $huge-padding;
+}
+
+#gridContainer {
+  padding-left: $huge-padding;
+}
+
+.hexIcon {
+  cursor: pointer;
+}
+
+.hexagon polygon {
+  display: none !important;
+}
+
+#techContainersTwoRows {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  padding-right: 28rem;
+}
+
+#techContainersFrontEnd {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  padding-right: 28rem;
+}
+
+#techContainers {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  padding-right: 28rem;
+}
+
+#singleTech {
+  width: fit-content;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  #gridContainer {
+    padding-left: 0;
+  }
+  #techContainersTwoRows {
+    padding-right: $huge-padding;
+  }
+  #techContainersFrontEnd {
+    padding-right: $huge-padding;
+  }
+  #techContainers {
+    padding-right: $huge-padding;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1535px) {
+  #gridContainer {
+    padding-left: 0;
+  }
+  #techContainersTwoRows {
+    padding-right: $huge-padding;
+  }
+  #techContainersFrontEnd {
+    padding-right: $huge-padding;
+  }
+  #techContainers {
+    padding-right: $huge-padding;
+  }
+}
+
+@media only screen and (min-width: 1536px) and (max-width: 1679px) {
+  #gridContainer {
+    padding-left: $medium-padding;
+  }
+  #techContainersTwoRows {
+    padding-right: 15rem;
+  }
+  #techContainersFrontEnd {
+    padding-right: 15rem;
+  }
+  #techContainers {
+    padding-right: 15rem;
+  }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {
+  #gridContainer {
+    padding-left: $larger-padding;
+  }
+  #techContainersTwoRows {
+    padding-right: 18rem;
+  }
+  #techContainersFrontEnd {
+    padding-right: 18rem;
+  }
+  #techContainers {
+    padding-right: 18rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #titleContainer {
+    padding-left: $mini-padding;
+  }
+  #gridContainer svg {
+    width: 31.25rem;
+    height: fit-content;
+  }
+  #gridContainer {
+    padding-left: 0;
+    overflow-x: hidden;
+    margin-bottom: $medium-margin;
+  }
+  #techContainersFrontEnd {
+    padding-left: $small-padding;
+    padding-right: $small-padding;
+  }
+  #techContainersTwoRows {
+    padding-left: $small-padding;
+    padding-right: $small-padding;
+    padding-bottom: $larger-padding;
+  }
+  #techContainers {
+    padding-left: $small-padding;
+    padding-right: $small-padding;
+    padding-bottom: $huge-padding;
+  }
+  .techIcon {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #gridContainer svg {
+    width: 29rem;
+    height: fit-content;
+  }
+}

@@ -1,0 +1,30 @@
+@import '../../../../../../styles/styles.scss';
+
+.sectionOneImg,
+.sectionTwoTopImg,
+.sectionTwoBottomImg,
+.sectionThreeTopImg,
+.sectionThreeBottomImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.sectionOneImg {
+  height: 31.25rem;
+}
+
+.sectionTwoTopImg {
+  height: 11.25rem;
+}
+
+.sectionTwoBottomImg {
+  height: 20rem;
+}
+
+.sectionThreeTopImg {
+  height: 10rem;
+}
+
+.sectionThreeBottomImg {
+  height: 21.25rem;
+}

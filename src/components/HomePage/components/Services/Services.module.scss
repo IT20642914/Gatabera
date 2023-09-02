@@ -1,0 +1,146 @@
+@import '../../../../styles/styles.scss';
+
+#servicesContainer {
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#titleContainer {
+  padding-top: $larger-padding;
+  padding-left: $huge-padding;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceCard,
+.smallServiceCard {
+  border: 1px solid $blue;
+  border-bottom: 0.75rem solid $blue;
+  border-radius: $small-radius;
+  padding: $small-padding $small-padding;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider {
+  max-width: 100%;
+  margin-left: $large-margin;
+}
+
+.serviceCard {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+
+.smallServiceCard {
+  width: 20.125rem;
+  height: 20.125rem;
+}
+
+.left {
+  transform: scale(0.8);
+  opacity: 0.8;
+}
+
+.right {
+  transform: scale(0.8);
+  opacity: 0.8;
+  margin-left: 1rem;
+}
+
+.carbonIcon {
+  margin-bottom: $small-margin;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1535px) {
+  .slider {
+    margin-left: $medium-margin;
+  }
+  .serviceCard {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .smallServiceCard {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  #serviceTitle {
+    font-size: $body1;
+  }
+
+  #serviceDesc {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (min-width: 1536px) and (max-width: 1679px) {
+  .slider {
+    margin-left: $medium-margin;
+  }
+  .serviceCard {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .smallServiceCard {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  #serviceTitle {
+    font-size: $body1;
+  }
+
+  #serviceDesc {
+    font-size: $body2;
+  }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {
+  .slider {
+    margin-left: $large-margin;
+  }
+  .serviceCard {
+    width: 19.5rem;
+    height: 19.5rem;
+  }
+
+  .smallServiceCard {
+    width: 17.75rem;
+    height: 17.75rem;
+  }
+
+  #serviceTitle {
+    font-size: $body1;
+  }
+
+  #serviceDesc {
+    font-size: $body2;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .slider {
+    margin-left: $smaller-margin;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #titleContainer {
+    padding-left: $mini-padding;
+  }
+  .serviceCard {
+    width: 100%;
+  }
+  .smallScreenSlider {
+    max-width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}

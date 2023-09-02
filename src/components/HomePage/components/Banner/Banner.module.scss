@@ -1,0 +1,44 @@
+@import '../../../../styles/styles.scss';
+
+.bannerContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: $primary-blue;
+}
+
+.honeyComb {
+  width: 100%;
+}
+
+.headersContainer {
+  position: absolute;
+  text-align: center;
+  top: 25%;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+  #bannerTitle {
+    font-size: $h2 !important;
+  }
+  #boldBannerTitle {
+    font-size: $h2 !important;
+  }
+}
+
+#subHeader {
+  padding-top: $medium-padding;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .headersContainer {
+    top: 20%;
+  }
+
+  #subHeader {
+    padding-top: $mini-padding;
+    text-align: center;
+    font-size: $body2 !important;
+  }
+}

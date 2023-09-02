@@ -1,0 +1,50 @@
+@import '../../../../styles/styles.scss';
+
+#titleContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: $larger-padding;
+}
+
+#fieldsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#sendButton {
+  border-radius: $default-radius;
+  height: 2.813rem;
+  margin-bottom: $small-margin;
+}
+
+#sendButton:hover {
+  background: $dark-orange;
+}
+
+#iconsContainer {
+  margin-bottom: $medium-margin;
+  padding-left: $medium-padding;
+}
+
+#iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+#iconTitle {
+  font-size: 0.813rem;
+  font-weight: 600;
+}
+
+#iconSubtitle {
+  font-size: 0.813rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  #iconsContainer {
+    padding-left: 0;
+  }
+  #iconContainer {
+    margin-bottom: $mini-margin;
+  }
+}

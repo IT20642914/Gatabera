@@ -1,0 +1,56 @@
+@import '../../../../styles/styles.scss';
+
+.viewOpeningBtn {
+  display: flex;
+  background-color: $dark-blue !important;
+  padding: $mini-padding 3.5rem !important;
+  margin-top: $medium-margin !important;
+}
+
+.bannerContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: $white;
+}
+.headersContainer {
+  position: absolute;
+  text-align: center;
+  top: 15%;
+}
+.subHeader {
+  margin-top: $medium-margin;
+  text-align: center;
+  color: $primary-blue;
+  padding: $medium-padding $huge-padding 0 $huge-padding;
+}
+
+.bannerHeader {
+  font-weight: 400;
+  color: $dark-blue;
+}
+
+.digiratinaWord {
+  white-space: 'nowrap';
+  font-weight: 600;
+  background: radial-gradient(
+    140.25% 16534.02% at 118.89% 49.43%,
+    $dark-blue 0%,
+    $light-blue 26.35%,
+    $blue 67.44%,
+    $primary-blue 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.honeyComb {
+  width: 100%;
+}
+
+.DigiratinaGroup {
+  width: 80%;
+  position: absolute !important;
+  top: 55%;
+  border-radius: 1rem;
+}

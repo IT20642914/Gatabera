@@ -1,0 +1,79 @@
+@import '../../../../styles/styles.scss';
+
+#caseStudiesContainer {
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: $primary-blue;
+  margin-top: $larger-margin;
+  padding-bottom: $larger-padding;
+}
+
+#titleContainer {
+  padding-top: $larger-padding;
+  padding-left: $huge-padding;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiperSlide {
+  background-position: center;
+  background-size: cover;
+  width: 28.125rem !important;
+  height: fit-content !important;
+}
+
+.swiperSlide img {
+  display: block;
+  width: 100%;
+}
+
+#textContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.navigationArrowContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#prevIcon {
+  position: absolute;
+  left: 0;
+  margin-left: -10rem;
+  cursor: pointer;
+}
+
+#nextIcon {
+  position: absolute;
+  right: 0;
+  margin-right: -10rem;
+  cursor: pointer;
+}
+
+.displayNone {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  #titleContainer {
+    padding-left: $mini-padding;
+  }
+  #textContainer {
+    align-items: flex-start;
+  }
+  .swiperSlide {
+    width: 21.875rem !important;
+  }
+  #prevIcon {
+    display: none;
+  }
+
+  #nextIcon {
+    display: none;
+  }
+}

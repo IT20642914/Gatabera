@@ -1,0 +1,45 @@
+@import '../../../../styles/styles.scss';
+
+#imageTitleSection {
+  margin-top: $larger-margin;
+  padding-left: $huge-padding;
+  padding-right: $huge-padding;
+}
+
+.honeyComb {
+  width: 100%;
+}
+
+.sectionImage {
+  width: 100%;
+}
+
+.title {
+  margin-top: $large-margin;
+  background: linear-gradient(
+    270deg,
+    $dark-blue -159.13%,
+    $light-blue -64.18%,
+    $blue 30.04%,
+    $primary-blue 121.35%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.borderImageContainer {
+  width: fit-content;
+  border: 1px solid $blue;
+  box-shadow: 0.125rem 0.125rem 0.188rem rgba(61, 60, 60, 0.25);
+  border-radius: 0.938rem;
+  padding: $midi-padding;
+}
+
+#arrows {
+  position: absolute;
+}
+
+#wave {
+  position: absolute;
+}

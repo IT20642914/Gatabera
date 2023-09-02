@@ -1,0 +1,64 @@
+@import '../../../styles/styles.scss';
+
+.hiringSection {
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(
+    110.25% 16534.02% at 148.89% 89.43%,
+    $dark-gold 0%,
+    $primary-Gold 35.35%,
+    $light-blue 70.44%,
+    $dark-blue 100%
+
+
+  );
+  padding: $mini-padding;
+}
+
+.navSection {
+  display: flex;
+  justify-content: space-between;
+  padding-left: $huge-padding;
+  padding-right: $huge-padding;
+  padding-top: $large-padding;
+  padding-bottom: $smaller-padding;
+  align-items: center;
+}
+
+.navItems {
+  display: flex;
+  height: fit-content;
+}
+
+.navText {
+  align-items: center;
+  cursor: pointer;
+}
+
+.downIcon {
+  color: $primary-blue;
+  margin-left: $micro-margin;
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navSection {
+    display: flex;
+    justify-content: space-between;
+    padding-left: $smaller-padding;
+    padding-right: $smaller-padding;
+    padding-top: $smaller-padding;
+    padding-bottom: $smaller-padding;
+    align-items: center;
+  }
+  .hamburgerIcon {
+    cursor: pointer;
+  }
+  .navText {
+    font-size: $body2 !important;
+  }
+}

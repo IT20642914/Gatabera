@@ -1,0 +1,36 @@
+@import '../../../../styles/styles.scss';
+
+#behindScenesContainer {
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: $primary-blue;
+  margin-top: $larger-margin;
+  padding-bottom: $larger-padding;
+}
+
+#titleContainer {
+  padding-top: $larger-padding;
+  padding-left: $huge-padding;
+}
+
+#imageGridContainer {
+  padding-left: $huge-padding;
+  padding-right: $huge-padding;
+  height: fit-content;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  #titleContainer {
+    padding-left: $mini-padding;
+  }
+
+  #imageGridContainer {
+    padding-left: $large-padding;
+    padding-right: $large-padding;
+    height: fit-content;
+    min-height: 100rem;
+    padding-bottom: 0;
+  }
+}

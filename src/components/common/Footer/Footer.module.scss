@@ -1,0 +1,26 @@
+@import '../../../styles/styles.scss';
+
+#footerContainer {
+  padding-top: $larger-padding;
+  padding-left: $huge-padding;
+  padding-right: $huge-padding;
+  padding-bottom: $larger-padding;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.linkText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) {
+  #footerContainer {
+    padding-top: $larger-padding;
+    padding-left: $medium-padding;
+    padding-right: 0;
+    padding-bottom: $larger-padding;
+  }
+}

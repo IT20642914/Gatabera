@@ -1,0 +1,32 @@
+@import '../../../../styles/styles.scss';
+
+#clientsContainer {
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#titleContainer {
+  padding-top: $larger-padding;
+  padding-left: $huge-padding;
+}
+
+#slideContainer {
+  padding-right: $larger-padding;
+  padding-left: $larger-padding;
+}
+
+.slider {
+  max-width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #titleContainer {
+    padding-left: $mini-padding;
+  }
+  #slideContainer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

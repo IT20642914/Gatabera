@@ -1,0 +1,22 @@
+@import '../../../../styles/styles.scss';
+
+.FollowOurProcessContainer {
+  display: flex;
+  margin-top: 15rem;
+}
+
+.headersContainer {
+  padding: 0 $huge-padding;
+}
+
+.bannerHeader {
+  color: $primary-orange;
+  font-weight: 600 !important;
+}
+.subDesciptionInterview {
+  padding: $medium-padding;
+  color: $primary-blue;
+}
+.subHeaderInterview {
+  color: $primary-blue;
+}

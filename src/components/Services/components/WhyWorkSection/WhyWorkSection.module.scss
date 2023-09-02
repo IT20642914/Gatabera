@@ -1,0 +1,21 @@
+@import '../../../../styles/styles.scss';
+
+#whyWorkContainer {
+  margin-top: $larger-margin;
+  padding-left: $huge-padding;
+  padding-right: $huge-padding;
+}
+
+.borderImageContainer {
+  width: fit-content;
+  border: 1px solid $blue;
+  box-shadow: 0.125rem 0.125rem 0.188rem rgba(61, 60, 60, 0.25);
+  border-radius: 0.938rem;
+  padding: $midi-padding;
+}
+
+.borderImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.813rem;
+}

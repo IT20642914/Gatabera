@@ -1,0 +1,36 @@
+@import '../../../../../../styles/styles.scss';
+
+.followContainer {
+  position: absolute;
+  top: 40%;
+  z-index: 100;
+}
+
+#itemsContainer {
+  display: flex !important;
+  flex-direction: column;
+  padding-left: $large-padding;
+  align-items: center;
+}
+
+.verticalLine {
+  margin-top: $smaller-margin;
+  margin-bottom: $smaller-margin;
+}
+
+.socialIcon {
+  cursor: pointer;
+  margin-bottom: $small-margin;
+}
+
+.socialIcon:hover circle {
+  fill: #00adee;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+  .followContainer {
+    position: absolute;
+    top: 30%;
+    z-index: 100;
+  }
+}
