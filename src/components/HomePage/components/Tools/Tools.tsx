@@ -5,13 +5,6 @@ import { HexGrid, Layout, Hexagon } from 'react-hexgrid';
 import styles from './Tools.module.scss';
 import SectionTitle from '../../../common/SectionTitle/SectionTitle';
 import {
-  feTechs,
-  mobileTechs,
-  microsoftTechs,
-  databases,
-  cloud,
-  qualityAssuarance,
-  java,
   toolsTechs,
 } from '../../../../constants/constants';
 
@@ -248,7 +241,7 @@ const Tools = () => {
             </Layout>
           </HexGrid>
         </Grid>
-        {highlightedKey === 1 && (
+        {/* {highlightedKey === 1 && (
           <Grid
             id={styles.techContainersFrontEnd}
             className={cx(
@@ -377,7 +370,7 @@ const Tools = () => {
               </Grid>
             ))}
           </Grid>
-        )}
+        )} */}
       </Grid>
     </Grid>
   );
