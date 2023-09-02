@@ -23,11 +23,11 @@ import { ReactComponent as HexHighlight4 } from '../assets/svgs/techhex_highligh
 import { ReactComponent as HexHighlight5 } from '../assets/svgs/techhex_highligh5.svg';
 import { ReactComponent as HexHighlight6 } from '../assets/svgs/techhex_highligh6.svg';
 import { ReactComponent as HexHighlight7 } from '../assets/svgs/techhex_highligh7.svg';
-import { ReactComponent as Angular } from '../assets/svgs/angular.svg';
-import { ReactComponent as HTML } from '../assets/svgs/html.svg';
-import { ReactComponent as CSS } from '../assets/svgs/css.svg';
-import { ReactComponent as JS } from '../assets/svgs/js.svg';
-import { ReactComponent as Bootstrap } from '../assets/svgs/bootstrap.svg';
+import { ReactComponent as SLarmy } from '../assets/svgs/SLarmy.svg';
+import { ReactComponent as policelogo } from '../assets/svgs/policelogo.svg';
+import { ReactComponent as Youth } from '../assets/svgs/youth.svg';
+import { ReactComponent as Culture } from '../assets/svgs/Culture.svg';
+import { ReactComponent as educ } from '../assets/svgs/educ.svg';
 import { ReactComponent as Sass } from '../assets/svgs/sass.svg';
 import { ReactComponent as Vue } from '../assets/svgs/vuejs.svg';
 import { ReactComponent as Less } from '../assets/svgs/less.svg';
@@ -65,6 +65,12 @@ import GridImg3 from '../assets/imgs/grid-img-3.png';
 import GridImg4 from '../assets/imgs/grid-img-4.png';
 import GridImg5 from '../assets/imgs/grid-img-5.png';
 import GridImg6 from '../assets/imgs/grid-img-6.png';
+
+import armylogo from '../assets/imgs/army-logo.png';
+import cul from '../assets/imgs/cul.png';
+import edu from '../assets/imgs/edu.png';
+import police from '../assets/imgs/police.png';
+import youth from '../assets/imgs/youth.png';
 
 export const headerNavigations = [
   {
@@ -154,85 +160,42 @@ export const services = [
 export const slides = [
   {
     key: 1,
-    title: 'Online Hotel Reservation',
+    title: 'Tham mattama',
     description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-1.jpg',
+      'Tham mattama is a village in Sultanpur Lodhi tehsil in Kapurthala district of Punjab, India. It is located 10 kilometres (6.2 mi) from the city of Sultanpur Lodhi, 30 kilometres (19 mi) away from district headquarter Kapurthala. The village is administrated by a Sarpanch who is an elected representative of village as per the constitution of India and Panchayati raj (India.',
+    img: GridImg6,
     nextClass: 'next-swiper-button',
     prevClass: 'prev-swiper-button',
   },
   {
     key: 2,
-    title: 'Online Hotel Reservation',
+    title: 'Bera',
     description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-2.jpg',
+      'Tham mattama is a village in Sultanpur Lodhi tehsil in Kapurthala district of Punjab, India. It is located 10 kilometres (6.2 mi) from the city of Sultanpur Lodhi, 30 kilometres (19 mi) away from district headquarter Kapurthala. The village is administrated by a Sarpanch who is an elected representative of village as per the constitution of India and Panchayati raj (India.',
+    img: GridImg3,
     nextClass: 'next-swiper-button',
     prevClass: 'prev-swiper-button',
   },
   {
     key: 3,
-    title: 'Online Hotel Reservation',
+    title: 'Bera',
     description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-3.jpg',
+      'Tham mattama is a village in Sultanpur Lodhi tehsil in Kapurthala district of Punjab, India. It is located 10 kilometres (6.2 mi) from the city of Sultanpur Lodhi, 30 kilometres (19 mi) away from district headquarter Kapurthala. The village is administrated by a Sarpanch who is an elected representative of village as per the constitution of India and Panchayati raj (India.',
+
+    img: GridImg3,
     nextClass: 'next-swiper-button',
     prevClass: 'prev-swiper-button',
   },
   {
     key: 4,
-    title: 'Online Hotel Reservation',
+    title: 'Bera',
     description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-4.jpg',
+      'Developed Bera system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
+    img: GridImg4,
     nextClass: 'next-swiper-button',
     prevClass: 'prev-swiper-button',
   },
-  {
-    key: 5,
-    title: 'Online Hotel Reservation',
-    description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-5.jpg',
-    nextClass: 'next-swiper-button',
-    prevClass: 'prev-swiper-button',
-  },
-  {
-    key: 6,
-    title: 'Online Hotel Reservation',
-    description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-6.jpg',
-    nextClass: 'next-swiper-button',
-    prevClass: 'prev-swiper-button',
-  },
-  {
-    key: 7,
-    title: 'Online Hotel Reservation',
-    description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-7.jpg',
-    nextClass: 'next-swiper-button',
-    prevClass: 'prev-swiper-button',
-  },
-  {
-    key: 8,
-    title: 'Online Hotel Reservation',
-    description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-8.jpg',
-    nextClass: 'next-swiper-button',
-    prevClass: 'prev-swiper-button',
-  },
-  {
-    key: 9,
-    title: 'Online Hotel Reservation',
-    description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-9.jpg',
-    nextClass: 'next-swiper-button',
-    prevClass: 'prev-swiper-button',
-  },
+  
 ];
 
 export const toolsTechs = [
@@ -287,13 +250,38 @@ export const toolsTechs = [
   },
 ];
 
-export const feTechs = [Angular, HTML, CSS, JS, Bootstrap, Sass, Vue, Less, JQuery, Webpack];
-export const mobileTechs = [React, Android, Flutter, IOS];
-export const microsoftTechs = [MicroSoft, Appium, Typescript];
-export const databases = [PgAdmin, DynamoDb, Oracle, MySql, MongoDb, Cassandra];
-export const cloud = [GoogleCloud, AWS, Azure];
-export const qualityAssuarance = [Jmeter, Selenium];
-export const java = [Laravel, Php, Python, Nodejs, Unknown];
+export const feTechs = [SLarmy, policelogo, Culture, Youth, educ];
+export const ClientsArry = [
+  {
+    key: 1,
+    img: armylogo,
+  },
+  {
+    key: 2,
+    img: edu,
+  },
+
+  {
+    key: 3,
+    img: police,
+  },
+
+  {
+    key: 4,
+    img: youth,
+  },
+  {
+    key: 5,
+    img: cul,
+  },
+];
+
+// export const mobileTechs = [React, Android, Flutter, IOS];
+// export const microsoftTechs = [MicroSoft, Appium, Typescript];
+// export const databases = [PgAdmin, DynamoDb, Oracle, MySql, MongoDb, Cassandra];
+// export const cloud = [GoogleCloud, AWS, Azure];
+// export const qualityAssuarance = [Jmeter, Selenium];
+// export const java = [Laravel, Php, Python, Nodejs, Unknown];
 
 export const gallery = [
   GridImg1,
