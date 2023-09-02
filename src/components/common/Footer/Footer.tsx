@@ -27,7 +27,7 @@ const Footer = () => {
     <Grid id={styles.footerContainer} sx={{ bgcolor: 'primary.main', pt: 15 }} container>
       <Grid sx={{ mb: { xs: 5 } }} md={4} item>
         <Grid item>
-          <LazyLoadImage effect='blur' className={styles.logo} alt='logo-brand' src={LogoBrand} />
+          {/* <LazyLoadImage effect='blur' className={styles.logo} alt='logo-brand' src={LogoBrand} /> */}
           <Typography sx={{ mt: 4 }} variant='subtitle2' color='primary.light'>
             Contact us for more details
           </Typography>
