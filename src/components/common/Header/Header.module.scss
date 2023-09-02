@@ -5,14 +5,17 @@
   justify-content: center;
   background: radial-gradient(
     110.25% 16534.02% at 148.89% 89.43%,
-    $brown-light-v2 0%,
-    $brown-light 35.35%,
-    $primary-dark-brown 70.44%,
-    $dark-brown 100%
+  	#faebd7 0%,
+    #ffdead 35.35%,
+    #8b4726 70.44%,
+    #422407 100%
   );
   padding: $mini-padding;
 }
 
+.head{
+  background: #faebd7;
+}
 .navSection {
   display: flex;
   justify-content: space-between;
@@ -43,9 +46,6 @@
    height: 4rem;
    width: 7rem;
   cursor: pointer;
-}
-.head{
-  background:  $brown-light-v2;
 }
 
 @media only screen and (max-width: 1024px) {
