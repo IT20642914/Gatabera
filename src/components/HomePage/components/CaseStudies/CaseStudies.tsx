@@ -34,7 +34,7 @@ const CaseStudies = () => {
   return (
     <Grid id={styles.caseStudiesContainer} container>
       <Grid xs={12} md={12} id={styles.titleContainer} sx={{ mb: 10 }} item>
-        <SectionTitle title='Case Studies' subTitle='A SELECTION OF' />
+        <SectionTitle title='music Instruments ' subTitle='A SELECTION OF' />
       </Grid>
       <Swiper
         className={styles.swiper}

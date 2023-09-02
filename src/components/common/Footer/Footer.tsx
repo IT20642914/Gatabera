@@ -27,8 +27,12 @@ const Footer = () => {
     <Grid id={styles.footerContainer} sx={{ bgcolor: 'primary.main', pt: 15 }} container>
       <Grid sx={{ mb: { xs: 5 } }} md={4} item>
         <Grid item>
-          {/* <LazyLoadImage effect='blur' className={styles.logo} alt='logo-brand' src={LogoBrand} /> */}
-          <Typography sx={{ mt: 4 }} variant='subtitle2' color='primary.light'>
+          <LazyLoadImage effect='blur' className={styles.logo} alt='logo-brand' src={LogoBrand} />
+         
+        </Grid>
+      </Grid>
+      <Grid sx={{ mb: { xs: 5 } }} md={6} item>
+      {/* <Typography sx={{ mt: 4 }} variant='subtitle2' color='primary.light'>
             Contact us for more details
           </Typography>
           <Grid sx={{ mt: 4 }} md={8} item>
@@ -43,11 +47,11 @@ const Footer = () => {
                 </Button>
               }
             />
-          </Grid>
-        </Grid>
-      </Grid>
-      <Grid sx={{ mb: { xs: 5 } }} md={6} item>
-        <Typography sx={{ mt: 4 }} variant='subtitle2' color='primary.light'>
+          </Grid> */}
+
+
+
+        {/* <Typography sx={{ mt: 4 }} variant='subtitle2' color='primary.light'>
           Our Services
         </Typography>
         <Grid container>
@@ -77,7 +81,7 @@ const Footer = () => {
               </Typography>
             ))}
           </Grid>
-        </Grid>
+        </Grid> */}
       </Grid>
       <Grid sx={{ mb: { xs: 5 } }} md={2} item>
         <Typography sx={{ mt: 4 }} variant='subtitle2' color='primary.light'>

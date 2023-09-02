@@ -55,7 +55,7 @@ const BehindScenes = () => {
   return (
     <Grid id={styles.behindScenesContainer} container>
       <Grid xs={12} md={12} id={styles.titleContainer} sx={{ mb: 10 }} item>
-        <SectionTitle title='Life at Digiratina' subTitle='BEHIND THE SCENES' />
+        <SectionTitle title='Awards' subTitle='BEHIND THE SCENES' />
       </Grid>
       <Grid id={styles.imageGridContainer} item>
         {currentImageSet === 1 && (

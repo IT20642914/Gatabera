@@ -2,12 +2,16 @@
 
 #footerContainer {
   padding-top: $larger-padding;
-  padding-left: $huge-padding;
+  padding-left: 1.5rem;
+  //$huge-padding;
   padding-right: $huge-padding;
-  padding-bottom: $larger-padding;
+  // padding-bottom: $larger-padding;
+  background:    #422407;
 }
 
 .logo {
+  height: 10rem;
+  width: 18rem;
   cursor: pointer;
 }
 
