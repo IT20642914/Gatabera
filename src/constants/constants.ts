@@ -155,26 +155,25 @@ export const slides = [
   {
     key: 1,
     title: 'Tham mattama',
-    description:'Daula is a village in Sultanpur Lodhi tehsil in Kapurthala district of Punjab, India. It is located 10 kilometres (6.2 mi) from the city of Sultanpur Lodhi, 30 kilometres (19 mi) away from district headquarter Kapurthala. The village is administrated by a Sarpanch who is an elected representative of village as per the constitution of India and Panchayati raj (India.',
+    description:'Tham mattama is a village in Sultanpur Lodhi tehsil in Kapurthala district of Punjab, India. It is located 10 kilometres (6.2 mi) from the city of Sultanpur Lodhi, 30 kilometres (19 mi) away from district headquarter Kapurthala. The village is administrated by a Sarpanch who is an elected representative of village as per the constitution of India and Panchayati raj (India.',
     img: GridImg6,
     nextClass: 'next-swiper-button',
     prevClass: 'prev-swiper-button',
   },
   {
     key: 2,
-    title: 'Online Hotel Reservation',
-    description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-2.jpg',
+    title: 'Bera',
+    description:'Tham mattama is a village in Sultanpur Lodhi tehsil in Kapurthala district of Punjab, India. It is located 10 kilometres (6.2 mi) from the city of Sultanpur Lodhi, 30 kilometres (19 mi) away from district headquarter Kapurthala. The village is administrated by a Sarpanch who is an elected representative of village as per the constitution of India and Panchayati raj (India.',
+    img: GridImg3,
     nextClass: 'next-swiper-button',
     prevClass: 'prev-swiper-button',
   },
   {
     key: 3,
     title: 'Online Hotel Reservation',
-    description:
-      'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-3.jpg',
+    description:'Tham mattama is a village in Sultanpur Lodhi tehsil in Kapurthala district of Punjab, India. It is located 10 kilometres (6.2 mi) from the city of Sultanpur Lodhi, 30 kilometres (19 mi) away from district headquarter Kapurthala. The village is administrated by a Sarpanch who is an elected representative of village as per the constitution of India and Panchayati raj (India.',
+  
+      img: GridImg3,
     nextClass: 'next-swiper-button',
     prevClass: 'prev-swiper-button',
   },
@@ -183,7 +182,7 @@ export const slides = [
     title: 'Online Hotel Reservation',
     description:
       'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-4.jpg',
+    img: GridImg4,
     nextClass: 'next-swiper-button',
     prevClass: 'prev-swiper-button',
   },
@@ -192,7 +191,7 @@ export const slides = [
     title: 'Online Hotel Reservation',
     description:
       'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-5.jpg',
+    img: GridImg4,
     nextClass: 'next-swiper-button',
     prevClass: 'prev-swiper-button',
   },
@@ -201,7 +200,7 @@ export const slides = [
     title: 'Online Hotel Reservation',
     description:
       'Developed online hotel reservation system that allows travel agents around the globe to provide hotel bookings, flights & transfers to our end customers – the Umrah pilgrims.',
-    img: 'https://swiperjs.com/demos/images/nature-6.jpg',
+      img: GridImg6,
     nextClass: 'next-swiper-button',
     prevClass: 'prev-swiper-button',
   },
