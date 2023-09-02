@@ -2,7 +2,7 @@
 
 #footerContainer {
   padding-top: $larger-padding;
-  padding-left: 1.5rem;
+  padding-left: $larger-padding;
   //$huge-padding;
   padding-right: $huge-padding;
   // padding-bottom: $larger-padding;
@@ -26,5 +26,8 @@
     padding-left: $medium-padding;
     padding-right: 0;
     padding-bottom: $larger-padding;
+  }
+  .logo {
+  margin-left: 1.5rem;
   }
 }
