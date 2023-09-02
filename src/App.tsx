@@ -2,11 +2,16 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HomePage, CareersPage, ScrollToTop, Services, QualityAssuarance } from './components';
 import PublicRoute from './routes/PublicRoutes';
+import GetInTouch from './components/HomePage/components/GetInTouch/GetInTouch';
 import ProductEngineering from './components/Services/components/ProductEngineering/ProductEngineering';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const App = () => {
   return (
     <Router>
+       <ToastContainer></ToastContainer>
       <ScrollToTop />
       <Routes>
         <Route path='/' element={<PublicRoute />}>
@@ -27,6 +32,9 @@ const App = () => {
         </Route>
         <Route path='/careers' element={<PublicRoute />}>
           <Route path='/careers' element={<CareersPage />} />
+        </Route>
+        <Route path='/contact' element={<PublicRoute />}>
+          <Route path='/contact' element={<GetInTouch />} />
         </Route>
         {/* <Route path='*' element={<NotFound />} /> */}
       </Routes>
