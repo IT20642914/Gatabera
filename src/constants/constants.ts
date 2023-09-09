@@ -307,17 +307,17 @@ export const gallery = [
 export const contactIconsList = [
   {
     title: 'PHONE',
-    subTitle: '011 273 53 74',
+    subTitle: '035 22 29 236',
     icon: Phone,
   },
   {
     title: 'WEBSITE',
-    subTitle: 'www.digiratina.com',
+    subTitle: 'www.tharangaalawala.com',
     icon: Globe,
   },
   {
     title: 'EMAIL',
-    subTitle: 'info@digiratina.com',
+    subTitle: 'info@tharangaalawala.com',
     icon: Email,
   },
 ];
